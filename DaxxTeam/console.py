@@ -28,12 +28,12 @@ if os.path.exists("Internal"):
    load_dotenv("Internal")
 
 
-API_ID = int(getenv("API_ID", 0))
-API_HASH = getenv("API_HASH", None)
-BOT_TOKEN = getenv("BOT_TOKEN", None)
-STRING_SESSION = getenv("STRING_SESSION", None)
-MONGO_DB_URL = getenv("MONGO_DB_URL", None)
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", 0))
+API_ID = int(getenv("API_ID", 28122413))
+API_HASH = getenv("API_HASH", "750432c8e1b221f91fd2c93a92710093") 
+BOT_TOKEN = getenv("BOT_TOKEN", " 6993647727:AAGEsZVoOEPpKuuGwrnHc1o1bQoCLRAykAI")
+STRING_SESSION = getenv("STRING_SESSION", "BQGtHS0ASTerhBtb7VbuRhJikBU_GW7TQJ1df66_N65YswPs84-dj-aFVc3QJ8_t5cPIF5KUs4gRpfNwteMPkcUF57_wUL_Cq-WoL0G_x-y90Kf5Gb6p2qccuPLIiIiHaMfSIz-05ZhZEliWmVw_qwZcdj5pg4rRJUnzmDmOxGv127TZ0HW9D9YmjJY5TK-zX3e20zzE-SQyyuKHsyO7-FoKVMvNmugCsBM3XoWQy0-Y8GZBiyzp_0SsB2eobO5-bKSvsNe2RrJ8oLllI27Snjdlyye6I_elcBlsFIogq0UZIF5QdF6fzrweeTIu5xkfeHOne2Lwa6BtUgoqZggmTrBqdd6s_AAAAAG05lvIAA")
+MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://vikas:vikas@vikas.yfezexk.mongodb.net/?retryWrites=true&w=majority")
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", -1001975521991))
 
 
 # OPTIONAL VARIABLES
